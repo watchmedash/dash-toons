@@ -29,20 +29,28 @@
       <div class="nav-links">
         <ul>
           <li><a href="../../index.html"><i class="fas fa-home"></i> Home</a></li>
-          <li><a href="../../chapters/Mercenary%20Enrollment.html"><i class="fas fa-bars"></i> Title</a></li>
         </ul>
       </div>
   </nav>
 
 
       </header>
-      <nav>
-        <ul class="footer-links">
-          <li><button class="watch-now-button" onclick="location.href='../../chapters/Mercenary Enrollment/chapter0.html'">Back</button></li>
-             <li><button class="watch-now-button" onclick="location.href='../../chapters/Mercenary Enrollment/chapter2.html'">Next</button></li>
-        </ul>
-      </nav>
+      <div class="container">
 <div class="image-container"><h1>Chapter 1</h1></div>
+        <div id="chapters">
+
+          <ul class="chapter-list">
+            <li><a href="../../chapters/Mercenary Enrollment/chapter0.html">Prev</a></li>
+            <li><a href="../../chapters/Mercenary Enrollment/chapter2.html">Next</a></li>
+            <li><a href="../../chapters/Mercenary%20Enrollment.html"><i class="fas fa-bars"></i> Title</a></li>
+            <li><div class="dropdown" id="chapterDropdown">
+                    <button class="dropbtn">Chapters &#9660;</button>
+                    <div class="dropdown-content" id="dynamicChapterList">
+                    </div>
+                </div></li>
+          </ul>
+        </div>
+         </div>
 
   <div id="content">
 
@@ -66,18 +74,55 @@
         }
     </script>
 
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Path to the HTML page containing the list of chapters
+        var chapterListPath = "../../chapters/Mercenary%20Enrollment.html";
+
+        // Get the dropdown and list elements
+        var dynamicChapterList = document.getElementById("dynamicChapterList");
+        var staticChapterList = document.getElementById("staticChapterList");
+
+        // Fetch the HTML content of the other page
+        fetch(chapterListPath)
+            .then(response => response.text())
+            .then(html => {
+                // Create a temporary element to parse the HTML
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = html;
+
+                // Extract the chapter list
+                var chapterList = tempDiv.querySelector(".chapter-list").innerHTML;
+
+                // Modify the links to add "../" (three times in this case)
+                chapterList = chapterList.replace(/href="\.\.\//g, 'href="../../');
+
+                // Insert the content into the respective containers
+                dynamicChapterList.innerHTML = chapterList;
+                staticChapterList.innerHTML = chapterList;
+            })
+            .catch(error => console.error("Error fetching chapter list:", error));
+    });
+    </script>
+
     <img class="chapter-image" src="https://i.postimg.cc/vmTw9tzp/thumbnail.png" alt="Dashtoons">
     <!--<img class="chapter-image" src="dash" alt="Dashtoons">-->
       </div>
     <img class="chapter-image" src="https://i.postimg.cc/vmTw9tzp/thumbnail.png" alt="Dashtoons">
 
-  <footer>
-<nav class="footer-nav">
-  <ul class="footer-links">
-    <li><button class="watch-now-button" onclick="location.href='../../chapters/Mercenary Enrollment/chapter0.html'">Back</button></li>
-       <li><button class="watch-now-button" onclick="location.href='../../chapters/Mercenary Enrollment/chapter2.html'">Next</button></li>
-  </ul>
-  <div class="social-icons">
+    <div class="container">
+      <div id="chapters">
+        <ul class="chapter-list">
+          <li><a href="../../chapters/Mercenary Enrollment/chapter0.html">Prev</a></li>
+          <li><a href="../../chapters/Mercenary Enrollment/chapter2.html">Next</a></li>
+          <li><a href="../../chapters/Mercenary%20Enrollment.html"><i class="fas fa-bars"></i> Title</a></li>
+          <!-- Add more chapters as needed -->
+        </ul>
+      </div>
+       </div>
+      <footer>
+    <nav class="footer-nav">
+      <div class="social-icons">
     <a href="https://perilastronaut.com/nadm5v41u?key=6fa38f3591b4cc6e11d51e9c4655dfce" class="social-icon"><i class="fab fa-instagram"></i></a>
     <a href="https://perilastronaut.com/nadm5v41u?key=6fa38f3591b4cc6e11d51e9c4655dfce" class="social-icon"><i class="fab fa-youtube"></i></a>
     <a href="https://perilastronaut.com/drgbi6nk3?key=b9a8423ba82179e793ae4a5b1096f541" class="social-icon"><i class="fab fa-facebook"></i></a>
