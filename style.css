@@ -1,3 +1,20 @@
+.item {
+  position: relative;
+  display: inline-block;
+}
+
+.chapter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  font-family: 'Exo 2', sans-serif;
+  z-index: 1;
+}
+
 #chapters {
     text-align: center;
     margin: 10px;
@@ -480,8 +497,8 @@ footer .copyright {
   margin-top: 10px;
   margin-bottom: 20px;
   display: flex;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the start (top) of the container */
   flex-wrap: wrap;
 }
 
@@ -534,6 +551,7 @@ footer .copyright {
   color: #fff;
   width: 100%;
   word-wrap: break-word;
+  margin-top: 10px; /* Add margin to separate the text from the image */
 }
 
 .title {
