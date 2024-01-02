@@ -1,3 +1,11 @@
+.terra {
+            display: flex;
+            justify-content: center; /* centers horizontally */
+            align-items: center; /* centers vertically */
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
 .item {
   position: relative;
   display: inline-block;
