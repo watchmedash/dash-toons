@@ -213,7 +213,6 @@ nav {
 .image-container img {
     width: 25%;
     max-width: 100%;
-    opacity: 1;
 }
 
 .image-container2 {
@@ -224,7 +223,6 @@ nav {
 .image-container2 img {
     width: 30%;
     max-width: 100%;
-    opacity: 1;
 }
 
 .content {
