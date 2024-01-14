@@ -1,12 +1,12 @@
 .announcement-banner {
-  background-color: rgba(255, 0, 0, 0.7);
+    background-color: rgba(255, 0, 0, 0.7);
     color: #000000;
     padding: 10px;
     text-align: center;
     font-size: 18px;
     font-family: 'Exo 2', sans-serif;
     position: relative;
-    border: 2px solid #FFFFFF; /* White border */
+    border: 2px solid #000000; /* White border */
     border-left: 1px solid #000000; /* White border on the left side */
     border-right: 1px solid #000000;
 }
