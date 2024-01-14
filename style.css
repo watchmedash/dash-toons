@@ -1,3 +1,25 @@
+.announcement-banner {
+    background-color: rgba(255, 255, 0, 0.7); /* Yellow background with transparency */
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Exo 2', sans-serif;
+    position: relative;
+    border: 2px solid #FFFFFF; /* White border */
+    border-left: 1px solid #FFFFFF; /* White border on the left side */
+    border-right: 1px solid #FFFFFF;
+}
+
+.announcement-banner p {
+    margin: 0;
+}
+
+.announcement-banner a {
+    color: #FFFFFF; /* Red link font color */
+    text-decoration: underline;
+}
+
 .terra {
     display: flex;
     justify-content: center;
