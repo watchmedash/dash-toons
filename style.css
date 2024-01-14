@@ -1,4 +1,4 @@
-.announcement-banner {
+.banner {
     background-color: rgba(255, 0, 0, 0.7);
     color: #000000;
     padding: 10px;
@@ -11,11 +11,11 @@
     border-right: 1px solid #000000;
 }
 
-.announcement-banner p {
+.banner p {
     margin: 0;
 }
 
-.announcement-banner a {
+.banner a {
     color: #FFFFFF; /* Red link font color */
     text-decoration: underline;
 }
