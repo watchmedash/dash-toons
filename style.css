@@ -1,3 +1,14 @@
+.image-contained {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .image-contained img {
+      width: 100%;
+      height: auto;
+      display: block; /* This ensures the image behaves as a block element */
+    }
+
 .new-banner {
     background-color: #3498db; /* Blue background color */
     color: #ffffff; /* White text color */
