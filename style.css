@@ -534,6 +534,18 @@ footer .copyright {
     font-family: 'Exo 2', sans-serif;
 }
 
+.galler {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust the alignment of the items */
+  border: 5px solid #333; /* Customize the border color and width */
+  border-radius: 1px; /* Adds rounded corners for a softer look */
+  overflow: hidden; /* Hides overflowing content */
+  background-color: #f4f4f4; /* Optional: Set a background color */
+  padding: 10px; /* Optional: Add padding for spacing */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
