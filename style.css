@@ -539,8 +539,8 @@ footer .copyright {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; /* Adjust the alignment of the items */
-  border: 5px solid #333; /* Customize the border color and width */
-  border-radius: 1px; /* Adds rounded corners for a softer look */
+  border: 2px solid #333; /* Customize the border color and width */
+  border-radius: 10px; /* Adds rounded corners for a softer look */
   overflow: hidden; /* Hides overflowing content */
   background-color: #f4f4f4; /* Optional: Set a background color */
   padding: 10px; /* Optional: Add padding for spacing */
@@ -568,6 +568,55 @@ footer .copyright {
   100% {
     left: 100%;
   }
+}
+
+.galler figure {
+    flex: 1 0 calc(12.5% - 2%);
+    max-width: calc(12.5% - 2%);
+    margin: 1%;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.0);
+    position: relative;
+}
+
+.galler figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.galler figure:hover img {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+    .galler figure {
+        flex: 1 0 calc(25% - 2%);
+        max-width: calc(25% - 2%);
+    }
+}
+
+.galler img {
+    width: 100%;
+    height: auto;
+}
+
+.galler figcaption {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    color: black; /* Black text */
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.title {
+    margin-top: 10px;
+    color: black; /* Black text */
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
 }
 
 
