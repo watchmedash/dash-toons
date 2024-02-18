@@ -8,7 +8,13 @@
   <link rel="icon" href="../images/favicon.png" type="image/png">
   <link rel="stylesheet" href="../style.css">
   <title>I'm the Max-Level Newbie</title>
-
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2412399424552673"
+       crossorigin="anonymous"></script>
+  <style>
+  .hidden {
+  display: none;
+  }
+  </style>
 </head>
 <body>
 <header>
@@ -190,9 +196,60 @@
 <li><a href="../chapters/Im the Max-Level Newbie/chapter2.html">Chapter 2</a></li>
 <li><a href="../chapters/Im the Max-Level Newbie/chapter1.html">Chapter 1</a></li>
 <li><a href="../chapters/Im the Max-Level Newbie/chapter0.html">Chapter 0</a></li>
+ <li id="show-all-btn" class="hidden"><a href="#">Show All Chapters</a></li>
     </ul>
   </div>
    </div>
+
+   <script>
+     // Function to show all chapters
+     function showAllChapters() {
+       const chapters = document.querySelectorAll('.chapter-list li');
+       chapters.forEach(chapter => {
+         chapter.style.display = 'list-item';
+       });
+       document.getElementById('show-all-btn').style.display = 'none';
+     }
+
+     // Initially hide all chapters except the first four
+     const chapters = document.querySelectorAll('.chapter-list li');
+     for (let i = 0; i < chapters.length; i++) {
+       if (i >= 8) {
+         chapters[i].classList.add('hidden');
+       }
+     }
+
+     // Show the "Show All Chapters" link if there are more than eight chapters
+     document.getElementById('show-all-btn').classList.remove('hidden');
+     if (chapters.length > 8) {
+       const showAllLink = document.querySelector('#show-all-btn a');
+       showAllLink.addEventListener('click', showAllChapters);
+       showAllLink.style.color = 'inherit'; // Apply the same color as other chapters
+       showAllLink.style.textDecoration = 'none'; // Remove underline
+     }
+   </script>
+   <button id="goToTopBtn">Go to Top</button>
+   <script>
+     // Get the button
+     var mybutton = document.getElementById("goToTopBtn");
+
+     window.onscroll = function() {
+       scrollFunction();
+     };
+
+     function scrollFunction() {
+       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+         mybutton.style.display = "block";
+       } else {
+         mybutton.style.display = "none";
+       }
+     }
+
+     mybutton.onclick = function() {
+       document.body.scrollTop = 0;
+       document.documentElement.scrollTop = 0;
+     };
+   </script>
 
    <div class="image-contained"><a href="https://watchmenow.live/">
        <img src="https://i.postimg.cc/HW32Q2CM/WATCH-NOW-BANNER.gif" alt="Watch Me Now">
