@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="icon" href="https://i.postimg.cc/NM4kLqv2/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <title>Dashtoons</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2412399424552673"
          crossorigin="anonymous"></script>
+         <style>
+         /* Add custom styles here */
+         .audio-controls {
+             margin-top: 10px;
+         }
+         #player-container {
+             width: 60%;
+             margin: 0 auto; /* Center align horizontally */
+         }
+</style>
 </head>
 <body>
 <header>
@@ -42,6 +53,93 @@
     <div class="image-contained"><a href="https://watchmenow.live/">
         <img src="https://i.postimg.cc/HW32Q2CM/WATCH-NOW-BANNER.gif" alt="Watch Me Now">
     </a></div>
+
+    <div class="image-container">
+
+      <div id="player-container">
+              <div class="form-group">
+                  <label for="audio-select">Background Music?</label>
+                  <select class="form-control" id="audio-select" onchange="selectAudio(this.value)">
+                    <option value="" selected disabled>---</option>
+                      <option value="background-music1">Free Me</option>
+                      <option value="background-music2">Go</option>
+                      <option value="background-music3">Modest</option>
+                  </select>
+              </div>
+              <div class="audio-controls">
+                  <button id="play-btn" onclick="playMusic()" disabled>▶️</button>
+                  <button id="pause-btn" onclick="pauseMusic()" disabled>⏸️</button>
+              </div>
+              <p>Refresh page to stop music from playing.</p>
+          </div>
+
+          <!-- Audio players -->
+          <div style="display: none;">
+              <audio id="background-music1" controls loop>
+                  <source src="https://dashtoons.xyz/Free-Me.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+              </audio>
+          </div>
+
+          <div style="display: none;">
+              <audio id="background-music2" controls loop>
+                  <source src="https://dashtoons.xyz/Go.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+              </audio>
+          </div>
+
+          <div style="display: none;">
+              <audio id="background-music3" controls loop>
+                  <source src="https://dashtoons.xyz/Modest.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+              </audio>
+          </div>
+
+  </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        var currentAudio = null;
+
+        function selectAudio(audioId) {
+            var audio = document.getElementById(audioId);
+            // Pause the currently playing audio if any
+            if (currentAudio && currentAudio !== audio) {
+                currentAudio.pause();
+                document.getElementById('pause-btn').disabled = true;
+                document.getElementById('play-btn').disabled = false;
+            }
+            // Update the current audio
+            currentAudio = audio;
+            // Enable play and pause buttons accordingly
+            if (audio.paused) {
+                document.getElementById('play-btn').disabled = false;
+                document.getElementById('pause-btn').disabled = true;
+            } else {
+                document.getElementById('play-btn').disabled = true;
+                document.getElementById('pause-btn').disabled = false;
+            }
+        }
+
+        function playMusic() {
+            if (currentAudio) {
+                currentAudio.play();
+                document.getElementById('play-btn').disabled = true;
+                document.getElementById('pause-btn').disabled = false;
+            }
+        }
+
+        function pauseMusic() {
+            if (currentAudio) {
+                currentAudio.pause();
+                document.getElementById('play-btn').disabled = false;
+                document.getElementById('pause-btn').disabled = true;
+            }
+        }
+    </script>
 
 <div class="image-container"><h1>🔥 Hottest of the Month 🔥</h1></div>
 <div class="galler">
