@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
     "Solo Leveling",
     "Wind Breaker",
     "Peerless Dad",
-    "Omniscient Reader's Viewpoint",
+    "Omniscient Reader",
     "Leveling With the Gods",
     "Mercenary Enrollment",
-    "Return of the Manhua Sect",
-    "I'm the Max-Level Newbie",
-    "Pick Me Up, Infinite Gacha",
+    "Return of the Blossoming Blade",
+    "Im the Max-Level Newbie",
+    "Pick Me Up Infinite Gacha",
     "Dungeon Reset",
     "The Tutorial Is Too Hard",
     "The Greatest Estate Developer",
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "Overgeared",
     "Eleceed",
     "Manager Kim",
-    "Kaiju No.8",
+    "Monster-8",
     "Boundless Ascension",
     "SSS-Class Suicide Hunter",
     "The Breaker 3 – Eternal Force",
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "Child of the Sheath",
     "Who Made Me A Princess",
     "Mercenary Enrollment",
-    "Trash of the Count's Family"
+    "Trash of the Counts Family"
   ];
 
   function performSearch() {
