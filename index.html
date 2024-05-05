@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="icon" href="https://i.postimg.cc/NM4kLqv2/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
@@ -30,6 +31,14 @@
       </ul>
     </div>
 </nav>
+
+<div class="search-container">
+  <form>
+    <input type="text" id="searchInput" placeholder="Search Title..." autocomplete="off">
+    <button type="submit"><i class="fas fa-search"></i></button>
+  </form>
+  <div id="searchResults"></div>
+</div>
 
 <!--<div class="new-banner">
     <p>We have an Android APP!!!</p>
@@ -334,7 +343,7 @@
         <a href="chapters/Monster-8.html">
           <img src="https://i.postimg.cc/RVzD4DrF/Monster-8.webp" alt="Kaiju No. 8" height="320" width="240">
           <div class="chapter">106</div>
-          <figcaption>Kaiju No. 8</figcaption>
+          <figcaption>Kaiju No.8</figcaption>
         </a>
   </figure>
 
@@ -535,5 +544,6 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="homepage.js"></script>
+        <script src="script.js"></script>
 </body>
 </html>
