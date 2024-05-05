@@ -1,3 +1,87 @@
+.search-container {
+  margin-top: 20px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+.search-container form {
+  padding: 8px;
+  position: relative;
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.search-container input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.search-container button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 8px;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+}
+
+
+.search-container button i {
+  font-size: 20px;
+  color: red;
+
+}
+
+#searchResults {
+  position: absolute;
+    z-index: 1000;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+  display: none;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  color: red;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+}
+
+#searchResults ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#searchResults li {
+  margin-bottom: 5px;
+}
+
+#searchResults a {
+  font-weight: bold;
+  text-decoration: none;
+  color: red; /* Set the font color of the links to red */
+  font-family: 'Exo 2', sans-serif; /* Apply the "Exo 2" font to the list items */
+}
+
+#searchResults a:hover {
+  text-decoration: underline;
+}
+
+#searchResults p {
+  color: red; /* Set the font color of "No results found" to red */
+}
+
 .image-contained {
       width: 100%;
       overflow: hidden;
