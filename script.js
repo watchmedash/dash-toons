@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const itemList = [
     "Solo Leveling",
+    "Chronicles of Heavenly Demon",
     "Wind Breaker",
     "Peerless Dad",
     "Omniscient Reader",
