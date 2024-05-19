@@ -1,7 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
   const itemList = [
     "Solo Leveling",
+    "The Worn and Torn Newbie",
+    "Murim RPG Simulation",
     "Volcanic Age",
+    "Forest Syrup",
     "Jujutsu Kaisen",
     "Tougen Anki",
     "Class 1-9",
