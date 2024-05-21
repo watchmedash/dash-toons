@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const itemList = [
+    "The Perks of Working in the Black Magic Industry",
     "Solo Leveling",
     "The Worn and Torn Newbie",
     "Murim RPG Simulation",
