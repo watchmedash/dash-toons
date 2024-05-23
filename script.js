@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const itemList = [
     "The Perks of Working in the Black Magic Industry",
     "Solo Leveling",
+    "Easy Survival in Another World",
+    "The Player That Cant Level Up",
     "The Worn and Torn Newbie",
     "Murim RPG Simulation",
     "Volcanic Age",
