@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "Murim RPG Simulation",
     "Volcanic Age",
     "Forest Syrup",
+    "Lookism",
     "Jujutsu Kaisen",
     "Tougen Anki",
     "Class 1-9",
