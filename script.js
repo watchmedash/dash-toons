@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "The Worn and Torn Newbie",
     "Murim RPG Simulation",
     "Volcanic Age",
+    "To Not Die",
     "Forest Syrup",
     "Lookism",
     "Jujutsu Kaisen",
