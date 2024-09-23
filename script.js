@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "Solo Leveling",
     "Solo Leveling Ragnarok",
     "Dandadan",
+    "Boruto Two Blue Vortex",
     "Easy Survival in Another World",
     "The Player That Cant Level Up",
     "The Worn and Torn Newbie",
