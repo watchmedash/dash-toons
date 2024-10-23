@@ -1,20 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #232323;
+    color: #e6e6e6;
     margin: 0;
-    padding: 20px;
 }
 
 h1 {
     text-align: center;
-    color: #2c3e50;
+    color: #e6e6e6;
     margin-bottom: 20px;
 }
 
 h3 {
     margin-top: 20px;
-    color: #2c3e50; /* Match title color for headings */
+    color: #e6e6e6; /* Match title color for headings */
 }
 
 
@@ -26,7 +25,7 @@ h3 {
 }
 
 .manga-item {
-    background: #fff;
+    background: #3e3e3e;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
@@ -36,7 +35,7 @@ h3 {
 }
 
 .manga-item:hover {
-    background: #f1f1f1; /* Change background on hover */
+    background: #161616; /* Change background on hover */
     transform: translateY(-2px); /* Slight lift effect */
 }
 
@@ -53,7 +52,7 @@ h3 {
 
 .manga-item p {
     font-size: 14px;
-    color: #555;
+    color: #e6e6e6;
 }
 
 #pagination {
@@ -137,6 +136,7 @@ header {
     bottom: 0; /* Stick to the bottom */
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); /* Shadow above the buttons */
     border-top: 1px solid #444; /* Subtle top border */
+    margin-bottom: 20px;
 }
 
 /* Styles for sticky buttons */
@@ -150,6 +150,7 @@ header {
     font-size: 18px; /* Increased font size for better visibility */
     cursor: pointer; /* Change cursor on hover */
     transition: background-color 0.3s, transform 0.2s; /* Add hover transition */
+    margin-bottom: 20px;
 }
 
 /* Hover effect for buttons */
@@ -174,6 +175,7 @@ header {
     justify-content: center; /* Center them horizontally */
     align-items: center; /* Vertically align both input and button */
     gap: 10px; /* Add some space between the input and button */
+    margin-bottom: 20px;
 }
 
 #search-input {
