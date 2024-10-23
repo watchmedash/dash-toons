@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Manga</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://i.postimg.cc/NM4kLqv2/favicon.png" type="image/png">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2101632572509071"crossorigin="anonymous"></script>
+    <style>
+        /* Additional styles for manga.html */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #manga-cover {
+            width: 100%;
+            max-width: 250px; /* Reduce the max width for the cover image */
+            margin-bottom: 20px;
+        }
+
+        main {
+            width: 100%; /* Make the main container full width */
+            max-width: 1200px; /* Optionally set a max width for larger screens */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #manga-embed {
+            width: 100%; /* Set iframe width to 100% */
+            height: 90vh; /* Set iframe height to 90% of the viewport height */
+            border: none; /* Remove default border */
+        }
+
+        #chapter-navigation {
+            margin: 20px 0; /* Add some space above and below */
+        }
+
+        #manga-synopsis {
+            margin: 20px 0; /* Add some space for the synopsis */
+            text-align: center; /* Center the synopsis text */
+            max-width: 800px; /* Limit the width of the synopsis */
+            padding: 0 10px; /* Add padding for small screens */
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+            margin: 0 5px; /* Add some margin between buttons */
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+  <div class="image-contained"><a href="https://dashflix.xyz/">
+  <img src="https://i.postimg.cc/wBNdfBt9/dashflixgif.gif" alt="dashflix">
+  </a></div>
+    <header>
+        <h1 id="manga-title"></h1>
+        <button id="back-button">Home</button>
+    </header>
+    <div class="terra">
+    <script type="text/javascript">
+        atOptions = {
+                'key' : '31659dfd382d23627d3b20f3dae9ec68',
+                'format' : 'iframe',
+                'height' : 90,
+                'width' : 728,
+                'params' : {}
+              };
+              document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://perilastronaut.com/31659dfd382d23627d3b20f3dae9ec68/invoke.js"></scr' + 'ipt>');
+       </script>
+    </div>
+    <main>
+        <img id="manga-cover" alt="Cover Image" />
+        <h3>Select Chapter</h3>
+        <select id="chapter-dropdown"></select>
+        <div>
+            <label for="chapter-input">Enter Chapter Number:</label>
+            <input type="number" id="chapter-input" min="1" value="1" />
+            <button id="go-to-chapter">Go</button>
+        </div>
+        <div class="terra">
+        <script type="text/javascript">
+            atOptions = {
+             'key' : '29a679982b44db55fa95b90dfb3fac2f',
+             'format' : 'iframe',
+             'height' : 50,
+             'width' : 320,
+             'params' : {}
+           };
+           document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://perilastronaut.com/29a679982b44db55fa95b90dfb3fac2f/invoke.js"></scr' + 'ipt>');
+           </script>
+        </div>
+        <div class="sticky-buttons" id="sticky-top">
+            <button id="prev-chapter">Prev</button>
+            <button id="next-chapter">Next</button>
+        </div>
+
+        <h3>Read Chapter</h3>
+        <iframe id="manga-embed"></iframe>
+
+        <div class="sticky-buttons" id="sticky-bottom">
+            <button id="prev-chapter-bottom">Prev</button>
+            <button id="next-chapter-bottom">Next</button>
+        </div>
+    </main>
+    <div class="terra">
+    <script type="text/javascript">
+              atOptions = {
+                'key' : '31659dfd382d23627d3b20f3dae9ec68',
+                'format' : 'iframe',
+                'height' : 90,
+                'width' : 728,
+                'params' : {}
+              };
+              document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://perilastronaut.com/31659dfd382d23627d3b20f3dae9ec68/invoke.js"></scr' + 'ipt>');
+            </script></div>
+    <div class="image-contained"><a href="https://dashflix.xyz/">
+    <img src="https://i.postimg.cc/wBNdfBt9/dashflixgif.gif" alt="dashflix">
+    </a></div>
+    <script src="manga.js"></script>
+</body>
+</html>
