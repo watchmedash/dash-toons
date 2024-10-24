@@ -1,21 +1,46 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #232323;
     color: #e6e6e6;
     margin: 0;
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 h1 {
     text-align: center;
     color: #e6e6e6;
     margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(-20px); /* Slide-in from above */
+    animation: fadeSlideIn 0.7s ease forwards;
+}
+
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 h3 {
     margin-top: 20px;
-    color: #e6e6e6; /* Match title color for headings */
+    color: #e6e6e6;
 }
-
 
 #manga-list {
     display: grid;
@@ -24,6 +49,7 @@ h3 {
     padding: 20px;
 }
 
+/* Manga Items */
 .manga-item {
     background: #3e3e3e;
     border: 1px solid #ddd;
@@ -31,18 +57,37 @@ h3 {
     padding: 10px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s, transform 0.3s; /* Added transform for hover effect */
+    transition: background 0.3s, transform 0.3s;
+    opacity: 0;
+    transform: translateY(20px); /* Start with a slight downward shift */
+    animation: slideIn 0.5s ease-in forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Slide in from below */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .manga-item:hover {
-    background: #161616; /* Change background on hover */
-    transform: translateY(-2px); /* Slight lift effect */
+    background: #161616;
+    transform: translateY(-2px);
 }
 
 .manga-item img {
     width: 100%;
     height: auto;
     border-radius: 5px;
+    transition: transform 0.5s ease; /* Smooth zoom effect */
+}
+
+.manga-item:hover img {
+    transform: scale(1.05); /* Slight zoom on hover */
 }
 
 .manga-item h3 {
@@ -55,43 +100,40 @@ h3 {
     color: #e6e6e6;
 }
 
+/* Pagination and Button Styles */
 #pagination {
     text-align: center;
     margin-top: 20px;
 }
 
 button {
-    padding: 12px 20px; /* Increased padding for larger buttons */
-    background-color: #3498db; /* Button background color */
-    color: #fff; /* Text color */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px; /* Font size */
-    transition: background 0.3s, transform 0.2s; /* Transition for hover effects */
-    margin: 0 5px; /* Margin between buttons */
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+    margin: 0 5px;
 }
 
-/* Style for disabled buttons */
 button:disabled {
-    background-color: #bdc3c7; /* Color for disabled state */
-    cursor: not-allowed; /* Not-allowed cursor */
+    background-color: #bdc3c7;
+    cursor: not-allowed;
 }
 
-/* Hover effect for active buttons */
 button:hover:not(:disabled) {
-    background-color: #2980b9; /* Darker shade on hover */
-    transform: translateY(-1px); /* Slight lift effect */
+    background-color: #2980b9;
+    transform: translateY(-1px);
 }
 
-/* Reset effect on button click */
 button:active:not(:disabled) {
-    transform: translateY(0); /* Reset on click */
-    background-color: #2471a3; /* Change background color on active */
+    transform: translateY(0);
+    background-color: #2471a3;
 }
 
-
-/* Styles for manga.html */
+/* Manga Page Specific Styles */
 header {
     text-align: center;
     margin-bottom: 20px;
@@ -101,80 +143,81 @@ header {
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 0 auto; /* Center the cover image */
-    border-radius: 5px; /* Match other rounded elements */
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
 #chapter-dropdown {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin: 10px 0; /* Margin above the dropdown */
-    width: 100%; /* Full width for dropdown */
-    max-width: 400px; /* Max width to match the search input */
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
 }
 
 #chapter-navigation {
-    text-align: center; /* Center navigation buttons */
-    margin: 20px 0; /* Margin around navigation */
+    text-align: center;
+    margin: 20px 0;
 }
 
+/* Iframe Styles */
 #iframe {
     width: 100%;
     height: 800px;
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Match other rounded elements */
+    border: none;
+    border-radius: 5px;
+    opacity: 0;
+    transform: scale(0.95); /* Start with a slight scale down */
+    transition: opacity 0.6s ease, transform 0.6s ease; /* Smooth entrance */
+}
+
+#iframe.loaded {
+    opacity: 1;
+    transform: scale(1); /* Scale to normal on load */
 }
 
 .sticky-buttons-bottom {
     position: sticky;
-    background-color: rgba(0, 0, 0, 0.8); /* Dark background for contrast */
-    padding: 15px 0; /* More padding for better spacing */
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
     display: flex;
-    justify-content: center; /* Center the buttons horizontally */
-    z-index: 10; /* Ensure they are above other content */
-    bottom: 0; /* Stick to the bottom */
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); /* Shadow above the buttons */
-    border-top: 1px solid #444; /* Subtle top border */
+    justify-content: center;
+    z-index: 10;
+    bottom: 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #444;
     margin-bottom: 20px;
 }
 
-/* Styles for sticky buttons */
 .sticky-buttons-bottom button {
-    margin: 0 15px; /* Increased margin for spacing */
-    background-color: #3498db; /* Button background */
-    color: #fff; /* Text color */
-    border: none; /* Remove border */
-    border-radius: 8px; /* More pronounced rounded corners */
-    padding: 12px 20px; /* Padding for button height */
-    font-size: 18px; /* Increased font size for better visibility */
-    cursor: pointer; /* Change cursor on hover */
-    transition: background-color 0.3s, transform 0.2s; /* Add hover transition */
-    margin-bottom: 20px;
+    margin: 0 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-/* Hover effect for buttons */
 .sticky-buttons-bottom button:hover {
-    background-color: #2980b9; /* Darker shade on hover */
-    transform: translateY(-2px); /* Lift effect on hover */
+    background-color: #2980b9;
+    transform: translateY(-2px);
 }
 
-/* Active state for buttons */
-.sticky-buttons-bottom button:active {
-    transform: translateY(0); /* Reset lift effect on click */
-}
-
-/* Disabled state styling */
 .sticky-buttons-bottom button:disabled {
-    background-color: #bdc3c7; /* Disabled color */
-    cursor: not-allowed; /* Change cursor for disabled */
+    background-color: #bdc3c7;
+    cursor: not-allowed;
 }
 
+/* Search Bar Styles */
 #search-container {
-    display: flex; /* Use flexbox to align items side by side */
-    justify-content: center; /* Center them horizontally */
-    align-items: center; /* Vertically align both input and button */
-    gap: 10px; /* Add some space between the input and button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     margin-bottom: 20px;
 }
 
@@ -194,7 +237,7 @@ header {
 }
 
 #clear-button {
-    display: none; /* Initially hidden */
+    display: none;
     padding: 10px 20px;
     background-color: #3498db;
     color: #fff;
@@ -206,10 +249,8 @@ header {
 }
 
 #clear-button:hover {
-    background-color: #2980b9; /* Change color on hover */
+    background-color: #2980b9;
 }
-
-
 
 .terra {
     display: flex;
@@ -228,4 +269,19 @@ header {
       width: 100%;
       height: auto;
       display: block; /* This ensures the image behaves as a block element */
+    }
+
+    /* Spinner Styles */
+    .spinner {
+        border: 8px solid #f3f3f3; /* Light gray */
+        border-top: 8px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
     }

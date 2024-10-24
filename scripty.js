@@ -181,3 +181,19 @@ function displayMangaDetails(manga) {
 
 // Initial data fetch
 fetchMangaData(currentPage);
+
+// Show the spinner when the page starts loading
+window.addEventListener('load', function () {
+    const spinnerContainer = document.getElementById('spinner-container');
+
+    // Hide the spinner once the page has fully loaded
+    spinnerContainer.style.display = 'none';
+});
+
+// Show the spinner when navigating away to a different page (optional, for smooth transitions)
+window.addEventListener('beforeunload', function () {
+    const spinnerContainer = document.getElementById('spinner-container');
+
+    // Show spinner when leaving the current page
+    spinnerContainer.style.display = 'flex';
+});
