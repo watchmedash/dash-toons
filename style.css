@@ -300,6 +300,16 @@ body {
     background: radial-gradient(circle, #ffffff, #ffffff); /* White background */
     margin: 0;
     padding: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .content {
