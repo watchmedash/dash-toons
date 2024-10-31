@@ -99,15 +99,15 @@ footer .copyright {
 }
 
 .galler {
-  position: relative; /* Add position relative to allow absolute positioning of pseudo-element */
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Adjust the alignment of the items */
+  justify-content: space-around;
   border: 2px solid #555; /* Darker border color */
-  border-radius: 10px; /* Adds rounded corners for a softer look */
+  border-radius: 10px; /* Rounded corners */
   overflow: hidden; /* Hides overflowing content */
   background-color: #1c1c1c; /* Dark background color */
-  padding: 10px; /* Optional: Add padding for spacing */
+  padding: 10px; /* Padding for spacing */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle box shadow */
 }
 
@@ -144,16 +144,24 @@ footer .copyright {
   border-radius: 10px;
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5); /* Dark shadow */
   position: relative;
+  overflow: hidden; /* Ensure the hover effect stays within bounds */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
 
 .galler figure img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+  transition: transform 0.3s ease; /* Smooth scaling */
+}
+
+.galler figure:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.7); /* Enhanced shadow */
 }
 
 .galler figure:hover img {
-  transform: scale(1.1);
+  transform: scale(1.1); /* Scale the image on hover */
 }
 
 @media screen and (max-width: 600px) {
@@ -171,28 +179,34 @@ footer .copyright {
 .galler figcaption {
   text-align: center;
   font-family: 'Exo 2', sans-serif;
-  color: white; /* Changed to white for better contrast */
+  color: white; /* Better contrast */
   width: 100%;
   word-wrap: break-word;
 }
 
 .title {
   margin-top: 10px;
-  color: white; /* Changed to white for better contrast */
+  color: white; /* Better contrast */
   font-family: 'Exo 2', sans-serif;
   font-size: 18px;
+  transition: color 0.3s ease; /* Smooth color transition */
 }
 
+.galler figure:hover .title {
+  color: #ff0000; /* Change title color on hover */
+}
+
+
 .gallery {
-  position: relative; /* Add position relative to allow absolute positioning of pseudo-element */
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Adjust the alignment of the items */
+  justify-content: space-around;
   border: 2px solid #555; /* Darker border color */
-  border-radius: 10px; /* Adds rounded corners for a softer look */
+  border-radius: 10px; /* Rounded corners */
   overflow: hidden; /* Hides overflowing content */
   background-color: #1c1c1c; /* Dark background color */
-  padding: 10px; /* Optional: Add padding for spacing */
+  padding: 10px; /* Padding for spacing */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle box shadow */
 }
 
@@ -229,20 +243,28 @@ footer .copyright {
   border-radius: 10px;
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5); /* Dark shadow */
   position: relative;
+  overflow: hidden; /* Ensure the hover effect stays within bounds */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
 
 .gallery figure img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+  transition: transform 0.3s ease; /* Smooth scaling */
+}
+
+.gallery figure:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.7); /* Enhanced shadow */
 }
 
 .gallery figure:hover img {
-  transform: scale(1.1);
+  transform: scale(1.1); /* Scale the image on hover */
 }
 
 @media screen and (max-width: 600px) {
-  .gallery figure {
+  .galler figure {
     flex: 1 0 calc(25% - 2%);
     max-width: calc(25% - 2%);
   }
@@ -256,14 +278,19 @@ footer .copyright {
 .gallery figcaption {
   text-align: center;
   font-family: 'Exo 2', sans-serif;
-  color: white; /* Changed to white for better contrast */
+  color: white; /* Better contrast */
   width: 100%;
   word-wrap: break-word;
 }
 
 .title {
   margin-top: 10px;
-  color: white; /* Changed to white for better contrast */
+  color: white; /* Better contrast */
   font-family: 'Exo 2', sans-serif;
   font-size: 18px;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.gallery figure:hover .title {
+  color: #ff0000; /* Change title color on hover */
 }
