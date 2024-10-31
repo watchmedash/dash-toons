@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const itemList = [
     "The Perks of Working in the Black Magic Industry",
     "Solo Leveling",
+    "Erotic x Anabolic",
     "Solo Leveling Ragnarok",
     "Dandadan",
     "Boruto Two Blue Vortex",
