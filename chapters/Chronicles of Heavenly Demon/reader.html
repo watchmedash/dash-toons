@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bastard</title>
+    <title>Chronicles of Heavenly Demon</title>
     <link rel="icon" href="https://i.postimg.cc/NM4kLqv2/favicon.png" type="image/png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
     <style>
@@ -114,7 +114,7 @@
         <div id="image-container"></div>
     </div>
     <div class="image-contained"><a href="https://dashflix.top/">
-        <img src="https://i.postimg.cc/wBNdfBt9/dashflixgif.gif" alt="Dashflix">
+        <img src="https://i.postimg.cc/wBNdfBt9/dashflixgif.gif" alt="Watch Me Now">
     </a></div>
     <!-- Bottom Navigation Bar -->
     <nav>
@@ -136,99 +136,99 @@
     <button id="goToTopBtn"><i class="fas fa-arrow-up"></i></button>
 
     <script>
-    const chaptersPath = './bastard.json';
+    const chaptersPath = './chd.json';
 
-  let currentChapterIndex = parseInt(localStorage.getItem('currentChapterIndex'), 10) || 0;
-  let chaptersData = [];
+    let currentChapterIndex = parseInt(localStorage.getItem('currentChapterIndex'), 10) || 0;
+    let chaptersData = [];
 
-  fetch(chaptersPath)
-      .then(response => response.json())
-      .then(data => {
-          chaptersData = data.chapters;
-          populateDropdown();
-          loadChapter(currentChapterIndex);
-          updateNavigationButtons();
-      })
-      .catch(error => console.error("Error loading chapters:", error));
+    fetch(chaptersPath)
+        .then(response => response.json())
+        .then(data => {
+            chaptersData = data.chapters;
+            populateDropdown();
+            loadChapter(currentChapterIndex);
+            updateNavigationButtons();
+        })
+        .catch(error => console.error("Error loading chapters:", error));
 
-  function populateDropdown() {
-      const dropdown = document.getElementById('chapterDropdown');
-      const reversedChapters = [...chaptersData].reverse();
+    function populateDropdown() {
+        const dropdown = document.getElementById('chapterDropdown');
+        const reversedChapters = [...chaptersData].reverse();
 
-      reversedChapters.forEach((chapter, index) => {
-          const option = document.createElement('option');
-          option.value = index;
-          option.textContent = chapter.name;
-          dropdown.appendChild(option);
-      });
+        reversedChapters.forEach((chapter, index) => {
+            const option = document.createElement('option');
+            option.value = index;
+            option.textContent = chapter.name;
+            dropdown.appendChild(option);
+        });
 
-      dropdown.addEventListener('change', (event) => {
-          currentChapterIndex = parseInt(event.target.value, 10);
-          loadChapter(currentChapterIndex);
-          updateNavigationButtons();
-          localStorage.setItem('currentChapterIndex', currentChapterIndex);
-      });
-  }
+        dropdown.addEventListener('change', (event) => {
+            currentChapterIndex = parseInt(event.target.value, 10);
+            loadChapter(currentChapterIndex);
+            updateNavigationButtons();
+            localStorage.setItem('currentChapterIndex', currentChapterIndex);
+        });
+    }
 
-  function loadChapter(index) {
-      if (index < 0 || index >= chaptersData.length) return;
+    function loadChapter(index) {
+        if (index < 0 || index >= chaptersData.length) return;
 
-      const chapter = chaptersData[chaptersData.length - 1 - index];
-      const imageContainer = document.getElementById('image-container');
-      const dropdown = document.getElementById('chapterDropdown');
+        const chapter = chaptersData[chaptersData.length - 1 - index];
+        const imageContainer = document.getElementById('image-container');
+        const dropdown = document.getElementById('chapterDropdown');
 
-      imageContainer.innerHTML = '';
-      dropdown.value = index;
+        imageContainer.innerHTML = '';
+        dropdown.value = index;
 
-      const lastImage = chapter.lastImage;
-      const baseUrl = lastImage.substring(0, lastImage.lastIndexOf('-') + 1);
-      const endIndex = parseInt(lastImage.split('-').pop().split('.')[0], 10);
+        const lastImage = chapter.lastImage;
+        const baseUrl = lastImage.substring(0, lastImage.lastIndexOf('-') + 1);
+        const endIndex = parseInt(lastImage.split('-').pop().split('.')[0], 10);
 
-      for (let i = 1; i <= endIndex; i++) {
-          const imgUrl = `${baseUrl}${i.toString().padStart(3, '0')}.png`;
-          const img = document.createElement('img');
-          img.src = imgUrl;
-          img.alt = `${chapter.name} - Image ${i}`;
-          imageContainer.appendChild(img);
-      }
-  }
+        for (let i = 1; i <= endIndex; i++) {
+            const imgUrl = `${baseUrl}${i.toString().padStart(3, '0')}.png`;
+            const img = document.createElement('img');
+            img.src = imgUrl;
+            img.alt = `${chapter.name} - Image ${i}`;
+            imageContainer.appendChild(img);
+        }
+    }
 
-  function updateNavigationButtons() {
-      const prevButton = document.getElementById('prevChapter');
-      const nextButton = document.getElementById('nextChapter');
+    function updateNavigationButtons() {
+        const prevButton = document.getElementById('prevChapter');
+        const nextButton = document.getElementById('nextChapter');
 
-      prevButton.disabled = currentChapterIndex === 0;
-      nextButton.disabled = currentChapterIndex === chaptersData.length - 1;
-  }
+        prevButton.disabled = currentChapterIndex === 0;
+        nextButton.disabled = currentChapterIndex === chaptersData.length - 1;
+    }
 
-  document.getElementById('prevChapter').addEventListener('click', () => {
-      if (currentChapterIndex > 0) {
-          currentChapterIndex--;
-          loadChapter(currentChapterIndex);
-          updateNavigationButtons();
-          localStorage.setItem('currentChapterIndex', currentChapterIndex);
-      }
-  });
+    document.getElementById('prevChapter').addEventListener('click', () => {
+        if (currentChapterIndex > 0) {
+            currentChapterIndex--;
+            loadChapter(currentChapterIndex);
+            updateNavigationButtons();
+            localStorage.setItem('currentChapterIndex', currentChapterIndex);
+        }
+    });
 
-  document.getElementById('nextChapter').addEventListener('click', () => {
-      if (currentChapterIndex < chaptersData.length - 1) {
-          currentChapterIndex++;
-          loadChapter(currentChapterIndex);
-          updateNavigationButtons();
-          localStorage.setItem('currentChapterIndex', currentChapterIndex);
-      }
-  });
+    document.getElementById('nextChapter').addEventListener('click', () => {
+        if (currentChapterIndex < chaptersData.length - 1) {
+            currentChapterIndex++;
+            loadChapter(currentChapterIndex);
+            updateNavigationButtons();
+            localStorage.setItem('currentChapterIndex', currentChapterIndex);
+        }
+    });
 
-  const goToTopBtn = document.getElementById('goToTopBtn');
-  goToTopBtn.style.display = 'none';
+    const goToTopBtn = document.getElementById('goToTopBtn');
+    goToTopBtn.style.display = 'none';
 
-  window.onscroll = () => {
-      goToTopBtn.style.display = document.documentElement.scrollTop > 100 ? 'block' : 'none';
-  };
+    window.onscroll = () => {
+        goToTopBtn.style.display = document.documentElement.scrollTop > 100 ? 'block' : 'none';
+    };
 
-  goToTopBtn.addEventListener('click', () => {
-      document.documentElement.scrollTop = 0;
-  });
+    goToTopBtn.addEventListener('click', () => {
+        document.documentElement.scrollTop = 0;
+    });
     </script>
 </body>
 </html>
