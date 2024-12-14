@@ -4,14 +4,14 @@
     "link": "https://play.google.com/store/apps/details?id=com.dashtroyer.dashtoons",
     "image": "https://i.postimg.cc/MZ74YLWk/appdown-copy.webp",
     "alt": "Dashtoons App",
-    "chapter": 8
+    "chapter": null
   },
   {
     "title": "Venom: The Last Dance",
     "link": "https://dashflix.top",
     "image": "https://m.media-amazon.com/images/I/81fxZOlyEBL.jpg",
     "alt": "Dashflix",
-    "chapter": 8
+    "chapter": null
   },
   {
     "title": "Wind Breaker",
@@ -23,7 +23,7 @@
   {
     "title": "Tower of God",
     "link": "chapters/Tower of God.html",
-    "image": "https://i.postimg.cc/vTtRQb1P/The-Horizon.webp",
+    "image": "https://i.postimg.cc/m237NJ1G/Tower-of-God.webp",
     "alt": "Tower of God",
     "chapter": 224
   },
