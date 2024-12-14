@@ -1,0 +1,401 @@
+[
+  {
+    "title": "Try our APP!!",
+    "link": "https://play.google.com/store/apps/details?id=com.dashtroyer.dashtoons",
+    "image": "https://i.postimg.cc/MZ74YLWk/appdown-copy.webp",
+    "alt": "Dashtoons App",
+    "chapter": 8
+  },
+  {
+    "title": "Venom: The Last Dance",
+    "link": "https://dashflix.top",
+    "image": "https://m.media-amazon.com/images/I/81fxZOlyEBL.jpg",
+    "alt": "Dashflix",
+    "chapter": 8
+  },
+  {
+    "title": "Wind Breaker",
+    "link": "chapters/Wind Breaker.html",
+    "image": "https://i.postimg.cc/xqrz0p1k/Wind-Breaker.webp",
+    "alt": "Wind Breaker",
+    "chapter": 135
+  },
+  {
+    "title": "Tower of God",
+    "link": "chapters/Tower of God.html",
+    "image": "https://i.postimg.cc/vTtRQb1P/The-Horizon.webp",
+    "alt": "Tower of God",
+    "chapter": 224
+  },
+  {
+    "title": "To Not Die",
+    "link": "chapters/To Not Die.html",
+    "image": "https://temp.compsci88.com/cover/To-Not-Die.jpg",
+    "alt": "To Not Die",
+    "chapter": 88
+  },
+  {
+    "title": "Blue Lock",
+    "link": "chapters/Blue Lock.html",
+    "image": "https://temp.compsci88.com/cover/Blue-Lock.jpg",
+    "alt": "Blue Lock",
+    "chapter": 287
+  },
+  {
+    "title": "Sakamoto Days",
+    "link": "chapters/Sakamoto Days.html",
+    "image": "https://i.postimg.cc/gcy3qxKw/Sakamoto-Days.webp",
+    "alt": "Sakamoto Days",
+    "chapter": 193
+  },
+  {
+    "title": "Kagurabachi",
+    "link": "chapters/Kagurabachi.html",
+    "image": "https://i.postimg.cc/cLmT500B/Kagurabachi.jpg",
+    "alt": "Kagurabachi",
+    "chapter": 60
+  },
+  {
+    "title": "Kill Blue",
+    "link": "chapters/Kill Blue.html",
+    "image": "https://i.postimg.cc/L5NQypNw/Kill-Blue.webp",
+    "alt": "Kill Blue",
+    "chapter": 81
+  },
+  {
+    "title": "Mercenary Enrollment",
+    "link": "chapters/Mercenary Enrollment.html",
+    "image": "https://i.postimg.cc/7ZW7KspZ/Mercenary-Enrollment.webp",
+    "alt": "Mercenary Enrollment",
+    "chapter": 216
+  },
+  {
+    "title": "Boundless Ascension",
+    "link": "chapters/Boundless Ascension.html",
+    "image": "https://i.postimg.cc/fRd0KRPt/Boundless-Ascension.webp",
+    "alt": "Boundless Ascension",
+    "chapter": 92
+  },
+  {
+    "title": "Surviving the Game as a Barbarian",
+    "link": "chapters/Surviving the Game as a Barbarian.html",
+    "image": "https://i.postimg.cc/gcVrH6Lg/Surviving-the-Game-as-a-Barbarian.webp",
+    "alt": "Surviving the Game as a Barbarian",
+    "chapter": 82
+  },
+  {
+    "title": "Solo Leveling Ragnarok",
+    "link": "chapters/Solo Leveling Ragnarok.html",
+    "image": "https://temp.compsci88.com/cover/Solo-Leveling-Ragnarok.jpg",
+    "alt": "Solo Leveling Ragnarok",
+    "chapter": 32
+  },
+  {
+    "title": "Lookism",
+    "link": "chapters/Lookism.html",
+    "image": "https://temp.compsci88.com/cover/Lookism.jpg",
+    "alt": "Lookism",
+    "chapter": 521
+  },
+  {
+    "title": "Manager Kim",
+    "link": "chapters/Manager Kim.html",
+    "image": "https://i.postimg.cc/prkJQ33X/Manager-Kim.webp",
+    "alt": "Manager Kim",
+    "chapter": 150
+  },
+  {
+    "title": "Overgeared",
+    "link": "chapters/Overgeared.html",
+    "image": "https://i.postimg.cc/j5MnhQdw/Overgeared.webp",
+    "alt": "Overgeared",
+    "chapter": 255
+  },
+  {
+    "title": "I'm the Max-Level Newbie",
+    "link": "chapters/Im the Max-Level Newbie.html",
+    "image": "https://i.postimg.cc/wTH5MLm6/im-the-max-level-newbie-1.webp",
+    "alt": "I'm the Max-Level Newbie",
+    "chapter": 183
+  },
+  {
+    "title": "Murim RPG Simulation",
+    "link": "chapters/Murim RPG Simulation.html",
+    "image": "https://i.postimg.cc/y8vZ3QV0/Murim-RPG-Simulation.webp",
+    "alt": "Murim RPG Simulation",
+    "chapter": 143
+  },
+  {
+    "title": "The Tutorial Is Too Hard",
+    "link": "chapters/The Tutorial Is Too Hard.html",
+    "image": "https://i.postimg.cc/9FfbHDw4/The-Tutorial-Is-Too-Hard.webp",
+    "alt": "The Tutorial Is Too Hard",
+    "chapter": 194
+  },
+  {
+    "title": "Pick Me Up, Infinite Gacha",
+    "link": "chapters/Pick Me Up Infinite Gacha.html",
+    "image": "https://i.postimg.cc/pTQt8231/Pick-Me-Up-Infinite-Gacha.webp",
+    "alt": "Pick Me Up, Infinite Gacha",
+    "chapter": 126
+  },
+  {
+    "title": "The Greatest Estate Developer",
+    "link": "chapters/The Greatest Estate Developer.html",
+    "image": "https://i.postimg.cc/VLBMZvm7/The-Greatest-Estate-Developer.webp",
+    "alt": "The Greatest Estate Developer",
+    "chapter": 161
+  },
+  {
+    "title": "Nano Machine",
+    "link": "chapters/Nano Machine.html",
+    "image": "https://i.postimg.cc/SxYqGNKM/Nano-Machine.webp",
+    "alt": "Nano Machine",
+    "chapter": 237
+  },
+  {
+    "title": "Boruto Two Blue Vortex",
+    "link": "chapters/Boruto Two Blue Vortex.html",
+    "image": "https://temp.compsci88.com/cover/Boruto-Two-Blue-Vortex.jpg",
+    "alt": "Boruto Two Blue Vortex",
+    "chapter": 16
+  },
+  {
+    "title": "Gachiakuta",
+    "link": "chapters/Gachiakuta.html",
+    "image": "https://i.postimg.cc/5NTF0VHV/Gachiakuta.webp",
+    "alt": "Gachiakuta",
+    "chapter": 119
+  },
+  {
+    "title": "Easy Survival in Another World",
+    "link": "chapters/Easy Survival in Another World.html",
+    "image": "https://i.postimg.cc/GhvVJbcX/Easy-Survival-in-Another-World.webp",
+    "alt": "Easy Survival in Another World",
+    "chapter": 36
+  },
+  {
+    "title": "QUESTISM",
+    "link": "chapters/QUESTISM.html",
+    "image": "https://i.postimg.cc/y87qT2Pn/QUESTISM.webp",
+    "alt": "QUESTISM",
+    "chapter": 155
+  },
+  {
+    "title": "Eleceed",
+    "link": "chapters/Eleceed.html",
+    "image": "https://i.postimg.cc/50x9F773/Eleceed.webp",
+    "alt": "Eleceed",
+    "chapter": 324
+  },
+  {
+    "title": "Survival Story of a Sword King in a Fantasy World",
+    "link": "chapters/Survival Story of a Sword King in a Fantasy World.html",
+    "image": "https://i.postimg.cc/26Ny9P7V/Survival-Story-of-a-Sword-King-in-a-Fantasy-World.webp",
+    "alt": "Survival Story of a Sword King in a Fantasy World",
+    "chapter": 233
+  },
+  {
+    "title": "Dungeon Reset",
+    "link": "chapters/Dungeon Reset.html",
+    "image": "https://i.postimg.cc/gkZZrJH9/Dungeon-Reset.webp",
+    "alt": "Dungeon Reset",
+    "chapter": 220
+  },
+  {
+    "title": "Dandadan",
+    "link": "chapters/Dandadan.html",
+    "image": "https://i.postimg.cc/W1YrSwcq/Dandadan.webp",
+    "alt": "Dandadan",
+    "chapter": 175
+  },
+  {
+    "title": "Return of the Blossoming Blade",
+    "link": "chapters/Return of the Blossoming Blade.html",
+    "image": "https://i.postimg.cc/yxyx4gXB/Return-of-the-Manhua-Sect.webp",
+    "alt": "Return of the Blossoming Blade",
+    "chapter": 152
+  },
+  {
+    "title": "Omniscient Reader's Viewpoint",
+    "link": "chapters/Omniscient Reader.html",
+    "image": "https://i.postimg.cc/dQXdq5fz/Omniscient-Reader.webp",
+    "alt": "Omniscient Reader's Viewpoint",
+    "chapter": 240
+  },
+  {
+    "title": "The Player That Cant Level Up",
+    "link": "chapters/The Player That Cant Level Up.html",
+    "image": "https://i.postimg.cc/28tGZhDh/The-Player-That-Cant-Level-Up.webp",
+    "alt": "The Player That Cant Level Up",
+    "chapter": 170
+  },
+  {
+    "title": "The World After the Fall",
+    "link": "chapters/The World After the Fall.html",
+    "image": "https://i.postimg.cc/qBmpn1ST/The-World-After-the-Fall.webp",
+    "alt": "The World After the Fall",
+    "chapter": 158
+  },
+  {
+    "title": "TSUYOSHI",
+    "link": "chapters/TSUYOSHI.html",
+    "image": "https://i.postimg.cc/Kzfg6s3f/TSUYOSHI.webp",
+    "alt": "TSUYOSHI",
+    "chapter": 283
+  },
+  {
+    "title": "The Max Level Hero Has Returned",
+    "link": "chapters/The Max Level Hero Has Returned.html",
+    "image": "https://i.postimg.cc/MGKp61c1/The-Max-Level-Hero-Has-Returned.webp",
+    "alt": "The Max Level Hero Has Returned",
+    "chapter": 185
+  },
+  {
+    "title": "Erotic x Anabolic",
+    "link": "chapters/Erotic x Anabolic.html",
+    "image": "https://temp.compsci88.com/cover/Erotic-x-Anabolic.jpg",
+    "alt": "Erotic x Anabolic",
+    "chapter": 39
+  },
+  {
+    "title": "The Worn and Torn Newbie",
+    "link": "chapters/The Worn and Torn Newbie.html",
+    "image": "https://i.postimg.cc/qR2PYwst/The-Worn-and-Torn-Newbie.webp",
+    "alt": "The Worn and Torn Newbie",
+    "chapter": 202
+  },
+  {
+    "title": "One Piece Colored",
+    "link": "chapters/One Piece Colored.html",
+    "image": "https://temp.compsci88.com/cover/One-Piece-Digital-Colored-Comics.jpg",
+    "alt": "One Piece Colored",
+    "chapter": 1046
+  },
+  {
+    "title": "Kaiju No.8",
+    "link": "chapters/Monster-8.html",
+    "image": "https://i.postimg.cc/RVzD4DrF/Monster-8.webp",
+    "alt": "Kaiju No.8",
+    "chapter": 118
+  },
+  {
+    "title": "Volcanic Age",
+    "link": "chapters/Volcanic Age.html",
+    "image": "https://i.postimg.cc/Y2TWTY4Z/Volcanic-Age.webp",
+    "alt": "Volcanic Age",
+    "chapter": 288
+  },
+  {
+    "title": "The Beginning After the End",
+    "link": "chapters/The Beginning After the End.html",
+    "image": "https://i.postimg.cc/fywBY1YM/The-Beginning-After-the-End.webp",
+    "alt": "The Beginning After the End",
+    "chapter": 197
+  },
+  {
+    "title": "Return of the Broken Constellation",
+    "link": "chapters/Return of the Broken Constellation.html",
+    "image": "https://i.postimg.cc/HWyGQJp4/Return-of-the-Broken-Constellation.webp",
+    "alt": "Return of the Broken Constellation",
+    "chapter": 120
+  },
+  {
+    "title": "Forest Syrup",
+    "link": "chapters/Forest Syrup.html",
+    "image": "https://i.postimg.cc/VL0k9zjf/Forest-Syrup.webp",
+    "alt": "Forest Syrup",
+    "chapter": 139
+  },
+  {
+    "title": "The Academys Undercover Professor",
+    "link": "chapters/The Academys Undercover Professor.html",
+    "image": "https://i.postimg.cc/bvZw7X6m/The-Academys-Undercover-Professor.webp",
+    "alt": "The Academys Undercover Professor",
+    "chapter": 93
+  },
+  {
+    "title": "Trash of the Count's Family",
+    "link": "chapters/Trash of the Counts Family.html",
+    "image": "https://i.postimg.cc/HnG74T1h/Trash-of-the-Counts-Family.webp",
+    "alt": "Trash of the Count's Family",
+    "chapter": 134
+  },
+  {
+    "title": "Leveling With the Gods",
+    "link": "chapters/Leveling With the Gods.html",
+    "image": "https://i.postimg.cc/dQSs8Xk1/Leveling-With-the-Gods.webp",
+    "alt": "Leveling With the Gods",
+    "chapter": 123
+  },
+  {
+    "title": "Tougen Anki",
+    "link": "chapters/Tougen Anki.html",
+    "image": "https://i.postimg.cc/QtJv1hpC/Tougen-Anki.webp",
+    "alt": "Tougen Anki",
+    "chapter": 171
+  },
+  {
+    "title": "The Legend of the Northern Blade",
+    "link": "chapters/The Legend of the Northern Blade.html",
+    "image": "https://i.postimg.cc/0Qv52kZf/The-Legend-of-the-Northern-Blade.webp",
+    "alt": "The Legend of the Northern Blade",
+    "chapter": 202
+  },
+  {
+    "title": "Ingoshima",
+    "link": "chapters/Ingoshima.html",
+    "image": "https://i.postimg.cc/G2LJ9sd8/Ingoshima.webp",
+    "alt": "Ingoshima",
+    "chapter": 182
+  },
+  {
+    "title": "Star Wars - The Mandalorian",
+    "link": "chapters/Star Wars - The Mandalorian.html",
+    "image": "https://i.postimg.cc/85Cn9Mn4/Star-Wars-The-Mandalorian.webp",
+    "alt": "Star Wars - The Mandalorian",
+    "chapter": 9
+  },
+  {
+    "title": "Justice League vs Godzilla vs Kong",
+    "link": "chapters/Justice League vs Godzilla vs Kong.html",
+    "image": "https://i.postimg.cc/59F8ywQG/Justice-League-vs-Godzilla-vs-Kong.webp",
+    "alt": "Justice League vs Godzilla vs Kong",
+    "chapter": 6
+  },
+  {
+    "title": "Superboy The Man of Tomorrow",
+    "link": "chapters/Superboy The Man of Tomorrow.html",
+    "image": "https://i.postimg.cc/05FXBjZ7/Superboy-The-Man-of-Tomorrow.webp",
+    "alt": "Superboy The Man of Tomorrow",
+    "chapter": 1
+  },
+  {
+    "title": "SSS-Class Suicide Hunter",
+    "link": "chapters/SSS-Class Suicide Hunter.html",
+    "image": "https://i.postimg.cc/J75wcr8Q/SSS-Class-Suicide-Hunter.webp",
+    "alt": "SSS-Class Suicide Hunter",
+    "chapter": 118
+  },
+  {
+    "title": "The Breaker 3 – Eternal Force",
+    "link": "chapters/The Breaker 3 – Eternal Force.html",
+    "image": "https://i.postimg.cc/Y07PGwfw/The-Breaker-3-Eternal-Force.webp",
+    "alt": "The Breaker 3 – Eternal Force",
+    "chapter": 100
+  },
+  {
+    "title": "Doom Breaker",
+    "link": "chapters/Doom Breaker.html",
+    "image": "https://i.postimg.cc/fT7stTJX/Doom-Breaker.webp",
+    "alt": "Doom Breaker",
+    "chapter": 101
+  },
+  {
+    "title": "Don't CLick",
+    "link": "https://dash-tv.com/movies",
+    "image": "https://i.postimg.cc/JnkLzRDT/Movie-Time-ad.png",
+    "alt": "Dashflix",
+    "chapter": 1
+  }
+]
