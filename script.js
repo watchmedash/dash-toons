@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const itemList = [
     "The Perks of Working in the Black Magic Industry",
     "Solo Leveling",
+    "Barbarian Quest",
+    "Killer Peter",
     "Erotic x Anabolic",
     "Solo Leveling Ragnarok",
     "Dandadan",
