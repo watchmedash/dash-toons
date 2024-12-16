@@ -89,7 +89,7 @@ async function loadGallery() {
           <div class="spinner"></div>
           <img loading="lazy" src="${item.image}" alt="${item.alt}" height="160" width="120"
                onerror="this.src='fallback-image.png';">
-          <div class="chapter">${item.chapter}</div>
+          ${item.chapter ? `<div class="chapter">${typeof item.chapter === 'string' ? item.chapter : `${item.chapter}`}</div>` : ''}
           <figcaption>${item.title}</figcaption>
         </a>
       </figure>
