@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const itemList = [
     "The Perks of Working in the Black Magic Industry",
+    "The Lord of Coins",
     "Solo Leveling",
     "Barbarian Quest",
     "Worlds Strongest Troll",
