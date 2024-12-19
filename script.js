@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "Solo Leveling",
     "Barbarian Quest",
     "Worlds Strongest Troll",
+    "The Return of the Disaster-Class Hero",
     "The Undefeatable Swordsman",
     "Killer Peter",
     "Creature Girls - A Hands-On Field Journal in Another World",
