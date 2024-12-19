@@ -21,6 +21,13 @@
     "chapter": 69
   },
   {
+    "title": "Worlds Strongest Troll",
+    "link": "chapters/Worlds Strongest Troll.html",
+    "image": "https://temp.compsci88.com/cover/Worlds-Strongest-Troll.jpg",
+    "alt": "Worlds Strongest Troll",
+    "chapter": 99
+  },
+  {
     "title": "Creature Girls - A Hands-On Field Journal in Another World",
     "link": "chapters/Creature Girls - A Hands-On Field Journal in Another World.html",
     "image": "https://temp.compsci88.com/cover/Creature-Girls-A-HandsOn-Field-Journal-in-Another-World.jpg",
@@ -152,6 +159,13 @@
     "image": "https://i.postimg.cc/y8vZ3QV0/Murim-RPG-Simulation.webp",
     "alt": "Murim RPG Simulation",
     "chapter": 144
+  },
+  {
+    "title": "The Undefeatable Swordsman",
+    "link": "chapters/The Undefeatable Swordsman.html",
+    "image": "https://temp.compsci88.com/cover/The-Undefeatable-Swordsman.jpg",
+    "alt": "The Undefeatable Swordsman",
+    "chapter": 243
   },
   {
     "title": "The Tutorial Is Too Hard",

@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     "The Perks of Working in the Black Magic Industry",
     "Solo Leveling",
     "Barbarian Quest",
+    "Worlds Strongest Troll",
+    "The Undefeatable Swordsman",
     "Killer Peter",
     "Creature Girls - A Hands-On Field Journal in Another World",
     "Yuusha ni Zenbu Ubawareta Ore wa Yuusha",
