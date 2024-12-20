@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     "The Perks of Working in the Black Magic Industry",
     "The Lord of Coins",
     "Kengan Omega",
+    "Second Life Ranker",
+    "Auto Hunting With My Clones",
     "Solo Leveling",
     "Barbarian Quest",
     "Worlds Strongest Troll",

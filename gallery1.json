@@ -221,7 +221,14 @@
     "link": "chapters/Boruto Two Blue Vortex.html",
     "image": "https://temp.compsci88.com/cover/Boruto-Two-Blue-Vortex.jpg",
     "alt": "Boruto Two Blue Vortex",
-    "chapter": 16
+    "chapter": 17
+  },
+  {
+    "title": "Auto Hunting With My Clones",
+    "link": "chapters/Auto Hunting With My Clones.html",
+    "image": "https://temp.compsci88.com/cover/Auto-Hunting-With-My-Clones.jpg",
+    "alt": "Auto Hunting With My Clones",
+    "chapter": 108
   },
   {
     "title": "Gachiakuta",
@@ -378,6 +385,13 @@
     "chapter": 93
   },
   {
+    "title": "Second Life Ranker",
+    "link": "chapters/Second Life Ranker.html",
+    "image": "https://temp.compsci88.com/cover/Second-Life-Ranker.jpg",
+    "alt": "Second Life Ranker",
+    "chapter": 194
+  },
+  {
     "title": "Trash of the Count's Family",
     "link": "chapters/Trash of the Counts Family.html",
     "image": "https://i.postimg.cc/HnG74T1h/Trash-of-the-Counts-Family.webp",
@@ -438,7 +452,7 @@
     "link": "chapters/SSS-Class Suicide Hunter.html",
     "image": "https://i.postimg.cc/J75wcr8Q/SSS-Class-Suicide-Hunter.webp",
     "alt": "SSS-Class Suicide Hunter",
-    "chapter": 119
+    "chapter": 120
   },
   {
     "title": "The Breaker 3 – Eternal Force",
