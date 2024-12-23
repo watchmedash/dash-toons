@@ -14,6 +14,90 @@
     "chapter": null
   },
   {
+    "title": "Wind Breaker",
+    "link": "chapters/Wind Breaker.html",
+    "image": "https://i.postimg.cc/xqrz0p1k/Wind-Breaker.webp",
+    "alt": "Wind Breaker",
+    "chapter": 137
+  },
+  {
+    "title": "Tower of God",
+    "link": "chapters/Tower of God.html",
+    "image": "https://i.postimg.cc/m237NJ1G/Tower-of-God.webp",
+    "alt": "Tower of God",
+    "chapter": 226
+  },
+  {
+    "title": "Sakamoto Days",
+    "link": "chapters/Sakamoto Days.html",
+    "image": "https://i.postimg.cc/gcy3qxKw/Sakamoto-Days.webp",
+    "alt": "Sakamoto Days",
+    "chapter": 195
+  },
+  {
+    "title": "Kagurabachi",
+    "link": "chapters/Kagurabachi.html",
+    "image": "https://i.postimg.cc/cLmT500B/Kagurabachi.jpg",
+    "alt": "Kagurabachi",
+    "chapter": 62
+  },
+  {
+    "title": "Lookism",
+    "link": "chapters/Lookism.html",
+    "image": "https://temp.compsci88.com/cover/Lookism.jpg",
+    "alt": "Lookism",
+    "chapter": 523
+  },
+  {
+    "title": "Kill Blue",
+    "link": "chapters/Kill Blue.html",
+    "image": "https://i.postimg.cc/L5NQypNw/Kill-Blue.webp",
+    "alt": "Kill Blue",
+    "chapter": 83
+  },
+  {
+    "title": "Mercenary Enrollment",
+    "link": "chapters/Mercenary Enrollment.html",
+    "image": "https://i.postimg.cc/7ZW7KspZ/Mercenary-Enrollment.webp",
+    "alt": "Mercenary Enrollment",
+    "chapter": 218
+  },
+  {
+    "title": "Boundless Ascension",
+    "link": "chapters/Boundless Ascension.html",
+    "image": "https://i.postimg.cc/fRd0KRPt/Boundless-Ascension.webp",
+    "alt": "Boundless Ascension",
+    "chapter": 94
+  },
+  {
+    "title": "Surviving the Game as a Barbarian",
+    "link": "chapters/Surviving the Game as a Barbarian.html",
+    "image": "https://i.postimg.cc/gcVrH6Lg/Surviving-the-Game-as-a-Barbarian.webp",
+    "alt": "Surviving the Game as a Barbarian",
+    "chapter": 84
+  },
+  {
+    "title": "The Tutorial Is Too Hard",
+    "link": "chapters/The Tutorial Is Too Hard.html",
+    "image": "https://i.postimg.cc/9FfbHDw4/The-Tutorial-Is-Too-Hard.webp",
+    "alt": "The Tutorial Is Too Hard",
+    "chapter": 196
+  },
+  {
+    "title": "Overgeared",
+    "link": "chapters/Overgeared.html",
+    "image": "https://i.postimg.cc/j5MnhQdw/Overgeared.webp",
+    "alt": "Overgeared",
+    "chapter": 256
+  },
+  {
+    "title": "I'm the Max-Level Newbie",
+    "link": "chapters/Im the Max-Level Newbie.html",
+    "image": "https://i.postimg.cc/wTH5MLm6/im-the-max-level-newbie-1.webp",
+    "alt": "I'm the Max-Level Newbie",
+    "chapter": 185
+  },
+  {
     "title": "Himekishi ga Classmate",
     "link": "chapters/Himekishi ga Classmate.html",
     "image": "https://temp.compsci88.com/cover/Himekishi-Ga-Classmate.jpg",
@@ -49,20 +133,6 @@
     "chapter": 62
   },
   {
-    "title": "Wind Breaker",
-    "link": "chapters/Wind Breaker.html",
-    "image": "https://i.postimg.cc/xqrz0p1k/Wind-Breaker.webp",
-    "alt": "Wind Breaker",
-    "chapter": 136
-  },
-  {
-    "title": "Tower of God",
-    "link": "chapters/Tower of God.html",
-    "image": "https://i.postimg.cc/m237NJ1G/Tower-of-God.webp",
-    "alt": "Tower of God",
-    "chapter": 225
-  },
-  {
     "title": "To Not Die",
     "link": "chapters/To Not Die.html",
     "image": "https://temp.compsci88.com/cover/To-Not-Die.jpg",
@@ -77,25 +147,11 @@
     "chapter": 287
   },
   {
-    "title": "Sakamoto Days",
-    "link": "chapters/Sakamoto Days.html",
-    "image": "https://i.postimg.cc/gcy3qxKw/Sakamoto-Days.webp",
-    "alt": "Sakamoto Days",
-    "chapter": 194
-  },
-  {
     "title": "The Lord of Coins",
     "link": "chapters/The Lord of Coins.html",
     "image": "https://temp.compsci88.com/cover/The-Lords-Coins-Arent-Decreasing.jpg",
     "alt": "The Lord of Coins",
     "chapter": 143
-  },
-  {
-    "title": "Kagurabachi",
-    "link": "chapters/Kagurabachi.html",
-    "image": "https://i.postimg.cc/cLmT500B/Kagurabachi.jpg",
-    "alt": "Kagurabachi",
-    "chapter": 61
   },
   {
     "title": "Kengan Omega",
@@ -112,34 +168,6 @@
     "chapter": 105
   },
   {
-    "title": "Kill Blue",
-    "link": "chapters/Kill Blue.html",
-    "image": "https://i.postimg.cc/L5NQypNw/Kill-Blue.webp",
-    "alt": "Kill Blue",
-    "chapter": 82
-  },
-  {
-    "title": "Mercenary Enrollment",
-    "link": "chapters/Mercenary Enrollment.html",
-    "image": "https://i.postimg.cc/7ZW7KspZ/Mercenary-Enrollment.webp",
-    "alt": "Mercenary Enrollment",
-    "chapter": 217
-  },
-  {
-    "title": "Boundless Ascension",
-    "link": "chapters/Boundless Ascension.html",
-    "image": "https://i.postimg.cc/fRd0KRPt/Boundless-Ascension.webp",
-    "alt": "Boundless Ascension",
-    "chapter": 93
-  },
-  {
-    "title": "Surviving the Game as a Barbarian",
-    "link": "chapters/Surviving the Game as a Barbarian.html",
-    "image": "https://i.postimg.cc/gcVrH6Lg/Surviving-the-Game-as-a-Barbarian.webp",
-    "alt": "Surviving the Game as a Barbarian",
-    "chapter": 82
-  },
-  {
     "title": "Solo Leveling Ragnarok",
     "link": "chapters/Solo Leveling Ragnarok.html",
     "image": "https://temp.compsci88.com/cover/Solo-Leveling-Ragnarok.jpg",
@@ -147,32 +175,11 @@
     "chapter": 33
   },
   {
-    "title": "Lookism",
-    "link": "chapters/Lookism.html",
-    "image": "https://temp.compsci88.com/cover/Lookism.jpg",
-    "alt": "Lookism",
-    "chapter": 522
-  },
-  {
     "title": "Manager Kim",
     "link": "chapters/Manager Kim.html",
     "image": "https://i.postimg.cc/prkJQ33X/Manager-Kim.webp",
     "alt": "Manager Kim",
     "chapter": 151
-  },
-  {
-    "title": "Overgeared",
-    "link": "chapters/Overgeared.html",
-    "image": "https://i.postimg.cc/j5MnhQdw/Overgeared.webp",
-    "alt": "Overgeared",
-    "chapter": 255
-  },
-  {
-    "title": "I'm the Max-Level Newbie",
-    "link": "chapters/Im the Max-Level Newbie.html",
-    "image": "https://i.postimg.cc/wTH5MLm6/im-the-max-level-newbie-1.webp",
-    "alt": "I'm the Max-Level Newbie",
-    "chapter": 184
   },
   {
     "title": "Murim RPG Simulation",
@@ -187,13 +194,6 @@
     "image": "https://temp.compsci88.com/cover/The-Undefeatable-Swordsman.jpg",
     "alt": "The Undefeatable Swordsman",
     "chapter": 243
-  },
-  {
-    "title": "The Tutorial Is Too Hard",
-    "link": "chapters/The Tutorial Is Too Hard.html",
-    "image": "https://i.postimg.cc/9FfbHDw4/The-Tutorial-Is-Too-Hard.webp",
-    "alt": "The Tutorial Is Too Hard",
-    "chapter": 195
   },
   {
     "title": "Pick Me Up, Infinite Gacha",
