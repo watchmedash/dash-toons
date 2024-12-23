@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "The Perks of Working in the Black Magic Industry",
     "The Lord of Coins",
     "Kengan Omega",
+    "Undead Unluck",
     "The Hero Returns",
     "Return of the Iron-Blooded Hound",
     "The Dark Magician Transmigrates After 66666 Years",
