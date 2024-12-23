@@ -82,13 +82,25 @@ async function loadGallery() {
     const response = await fetch('gallery1.json'); // Path to your JSON file
     const items = await response.json();
 
+    // Function to shuffle an array
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    // Shuffle the items array
+    const shuffledItems = shuffle(items);
+
     const galleryContainer = document.getElementById('ballery');
-    galleryContainer.innerHTML = items.map(item => `
+    galleryContainer.innerHTML = shuffledItems.map(item => `
       <figure class="item">
         <a href="${item.link}">
           <div class="spinner"></div>
           <img loading="lazy" src="${item.image}" alt="${item.alt}" height="160" width="120"
-               onerror="this.src='fallback-image.png';">
+               onerror="this.src='https://cinemojo.netlify.app/assets/no-poster-fallback-96ee2340.png';">
           ${item.chapter ? `<div class="chapter">${typeof item.chapter === 'string' ? item.chapter : `${item.chapter}`}</div>` : ''}
           <figcaption>${item.title}</figcaption>
         </a>
@@ -98,7 +110,6 @@ async function loadGallery() {
     console.error('Error loading gallery:', error);
   }
 }
-
 loadGallery();
 </script>
 <div class="gallery" id="ballery"></div>
@@ -108,13 +119,25 @@ async function loadGallery() {
     const response = await fetch('gallery.json'); // Path to your JSON file
     const items = await response.json();
 
+    // Function to shuffle an array
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+
+    const shuffledItems = shuffle(items);
+
     const galleryContainer = document.getElementById('gallery');
-    galleryContainer.innerHTML = items.map(item => `
+    galleryContainer.innerHTML = shuffledItems.map(item => `
       <figure class="item">
         <a href="${item.link}">
           <div class="spinner"></div>
           <img loading="lazy" src="${item.image}" alt="${item.alt}" height="160" width="120"
-               onerror="this.src='fallback-image.png';">
+               onerror="this.src='https://cinemojo.netlify.app/assets/no-poster-fallback-96ee2340.png';">
           <div class="chapter">${item.chapter}</div>
           <figcaption>${item.title}</figcaption>
         </a>
