@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
     "Solo Leveling Ragnarok",
     "Return to Player",
     "Destiny Lovers",
+    "The Advanced Player of the Tutorial Tower",
+    "Reformation of the Deadbeat Noble",
     "Dandadan",
     "Murim Login",
     "The God of High School",
