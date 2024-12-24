@@ -21,6 +21,62 @@
     "chapter": 137
   },
   {
+    "title": "Murim Login",
+    "link": "chapters/Murim Login.html",
+    "image": "https://temp.compsci88.com/cover/Murim-Login.jpg",
+    "alt": "Murim Login",
+    "chapter": 207
+  },
+  {
+    "title": "Destiny Lovers",
+    "link": "chapters/Destiny Lovers.html",
+    "image": "https://temp.compsci88.com/cover/Desuraba.jpg",
+    "alt": "Destiny Lovers",
+    "chapter": 104
+  },
+  {
+    "title": "The Grand Mudang Saga",
+    "link": "chapters/The Grand Mudang Saga.html",
+    "image": "https://temp.compsci88.com/cover/Path-of-the-Shaman.jpg",
+    "alt": "The Grand Mudang Saga",
+    "chapter": 134
+  },
+  {
+    "title": "Return to Player",
+    "link": "chapters/Return to Player.html",
+    "image": "https://temp.compsci88.com/cover/Return-to-Player.jpg",
+    "alt": "Return to Player",
+    "chapter": 180
+  },
+  {
+    "title": "Rankers Return",
+    "link": "chapters/Rankers Return.html",
+    "image": "https://temp.compsci88.com/cover/Rankers-Return-Remake.jpg",
+    "alt": "Rankers Return",
+    "chapter": 170
+  },
+  {
+    "title": "Yowa Yowa Sensei",
+    "link": "chapters/Yowa Yowa Sensei.html",
+    "image": "https://temp.compsci88.com/cover/Yowa-Yowa-Sensei.jpg",
+    "alt": "Yowa Yowa Sensei",
+    "chapter": 47
+  },
+  {
+    "title": "Maybe Meant to Be",
+    "link": "chapters/Maybe Meant to Be.html",
+    "image": "https://temp.compsci88.com/cover/Maybe-Meant-to-Be.jpg",
+    "alt": "Maybe Meant to Be",
+    "chapter": 84
+  },
+  {
+    "title": "Haite Kudasai Takamine San",
+    "link": "chapters/Haite Kudasai Takamine San.html",
+    "image": "https://temp.compsci88.com/cover/Please-Put-These-On-Takamine-san.jpg",
+    "alt": "Haite Kudasai Takamine San",
+    "chapter": 62
+  },
+  {
     "title": "Undead Unluck",
     "link": "chapters/Undead Unluck.html",
     "image": "https://temp.compsci88.com/cover/Undead-Unluck.jpg",
@@ -151,7 +207,7 @@
     "link": "chapters/Yuusha ni Zenbu Ubawareta Ore wa Yuusha.html",
     "image": "https://temp.compsci88.com/cover/The-Hero-Took-Everything-from-Me-So-I-Partied-with-the-Heros-Mother.jpg",
     "alt": "Yuusha ni Zenbu Ubawareta Ore wa Yuusha",
-    "chapter": 20
+    "chapter": 22
   },
   {
     "title": "Killer Peter",
@@ -165,7 +221,7 @@
     "link": "chapters/To Not Die.html",
     "image": "https://temp.compsci88.com/cover/To-Not-Die.jpg",
     "alt": "To Not Die",
-    "chapter": 89
+    "chapter": 90
   },
   {
     "title": "Blue Lock",
@@ -270,7 +326,7 @@
     "link": "chapters/Easy Survival in Another World.html",
     "image": "https://i.postimg.cc/GhvVJbcX/Easy-Survival-in-Another-World.webp",
     "alt": "Easy Survival in Another World",
-    "chapter": 36
+    "chapter": 40
   },
   {
     "title": "QUESTISM",
@@ -278,6 +334,13 @@
     "image": "https://i.postimg.cc/y87qT2Pn/QUESTISM.webp",
     "alt": "QUESTISM",
     "chapter": 156
+  },
+  {
+    "title": "Chained Soldier",
+    "link": "chapters/Chained Soldier.html",
+    "image": "https://temp.compsci88.com/cover/Mato-Seihei-No-Slave.jpg",
+    "alt": "Chained Soldier",
+    "chapter": 146
   },
   {
     "title": "Eleceed",
@@ -305,7 +368,7 @@
     "link": "chapters/Dandadan.html",
     "image": "https://i.postimg.cc/W1YrSwcq/Dandadan.webp",
     "alt": "Dandadan",
-    "chapter": 177
+    "chapter": 178
   },
   {
     "title": "Return of the Blossoming Blade",
@@ -368,7 +431,7 @@
     "link": "chapters/One Piece Colored.html",
     "image": "https://temp.compsci88.com/cover/One-Piece-Digital-Colored-Comics.jpg",
     "alt": "One Piece Colored",
-    "chapter": 1046
+    "chapter": 1047
   },
   {
     "title": "Kaiju No.8",
@@ -501,6 +564,6 @@
     "link": "https://dash-tv.com/movies",
     "image": "https://i.postimg.cc/JnkLzRDT/Movie-Time-ad.png",
     "alt": "Dashflix",
-    "chapter": 1
+    "chapter": null
   }
 ]
