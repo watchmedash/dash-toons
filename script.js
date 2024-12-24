@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "Worlds Strongest Troll",
     "The Return of the Disaster-Class Hero",
     "The Undefeatable Swordsman",
+    "Regressor Instruction Manual",
     "Killer Peter",
     "Creature Girls - A Hands-On Field Journal in Another World",
     "Yuusha ni Zenbu Ubawareta Ore wa Yuusha",
