@@ -68,34 +68,50 @@
 <script>
     // Check the current domain
     if (window.location.hostname === "dashtoons.xyz") {
-        // Display the announcement
         document.addEventListener("DOMContentLoaded", function () {
-            const announcement = document.createElement("div");
-            announcement.style.position = "fixed";
-            announcement.style.top = "0";
-            announcement.style.width = "100%";
-            announcement.style.backgroundColor = "#FFD700"; // Gold background
-            announcement.style.color = "#000"; // Black text
-            announcement.style.textAlign = "center";
-            announcement.style.padding = "10px";
-            announcement.style.zIndex = "1000";
-            announcement.innerHTML = "Please update your app or use DASHTOONS.TOP";
+            // Create the modal container
+            const modal = document.createElement("div");
+            modal.style.position = "fixed";
+            modal.style.top = "50%";
+            modal.style.left = "50%";
+            modal.style.transform = "translate(-50%, -50%)";
+            modal.style.width = "80%";
+            modal.style.maxWidth = "600px";
+            modal.style.padding = "20px";
+            modal.style.backgroundColor = "#2a2a2a"; // Dark neutral background
+            modal.style.color = "#e0e0e0"; // Neutral gray text
+            modal.style.boxShadow = "0 0 15px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.5)"; // Subtle glow
+            modal.style.borderRadius = "10px";
+            modal.style.textAlign = "center";
+            modal.style.zIndex = "1000";
+            modal.style.fontFamily = "'Orbitron', sans-serif";
 
-            // Add a close button
-            const closeButton = document.createElement("button");
-            closeButton.style.marginLeft = "20px";
-            closeButton.style.padding = "5px 10px";
-            closeButton.style.cursor = "pointer";
-            closeButton.textContent = "Close";
-            closeButton.onclick = function () {
-                announcement.style.display = "none";
-            };
-            announcement.appendChild(closeButton);
+            // Add the announcement text
+            const message = document.createElement("p");
+            message.style.margin = "0";
+            message.style.fontSize = "1.2rem";
+            message.innerHTML = "Please update your app or use DASHTOONS.TOP";
+            modal.appendChild(message);
 
-            document.body.appendChild(announcement);
+            // Add the modal to the document body
+            document.body.appendChild(modal);
+
+            // Add a semi-transparent background overlay
+            const overlay = document.createElement("div");
+            overlay.style.position = "fixed";
+            overlay.style.top = "0";
+            overlay.style.left = "0";
+            overlay.style.width = "100%";
+            overlay.style.height = "100%";
+            overlay.style.backgroundColor = "rgba(0, 0, 0, 0.9)"; // Dark overlay
+            overlay.style.zIndex = "999";
+
+            // Append overlay to the body
+            document.body.appendChild(overlay);
         });
     }
 </script>
+
 
 
 <div class="image-contained"><a href="https://dash-tv.com/">
