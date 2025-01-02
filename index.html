@@ -65,6 +65,39 @@
 </div>-->
 </header>
 
+<script>
+    // Check the current domain
+    if (window.location.hostname === "dashtoons.xyz") {
+        // Display the announcement
+        document.addEventListener("DOMContentLoaded", function () {
+            const announcement = document.createElement("div");
+            announcement.style.position = "fixed";
+            announcement.style.top = "0";
+            announcement.style.width = "100%";
+            announcement.style.backgroundColor = "#FFD700"; // Gold background
+            announcement.style.color = "#000"; // Black text
+            announcement.style.textAlign = "center";
+            announcement.style.padding = "10px";
+            announcement.style.zIndex = "1000";
+            announcement.innerHTML = "Please update your app or use dashtoons.top";
+
+            // Add a close button
+            const closeButton = document.createElement("button");
+            closeButton.style.marginLeft = "20px";
+            closeButton.style.padding = "5px 10px";
+            closeButton.style.cursor = "pointer";
+            closeButton.textContent = "Close";
+            closeButton.onclick = function () {
+                announcement.style.display = "none";
+            };
+            announcement.appendChild(closeButton);
+
+            document.body.appendChild(announcement);
+        });
+    }
+</script>
+
+
 <div class="image-contained"><a href="https://dash-tv.com/">
 <img loading="lazy" data-src="https://i.postimg.cc/wBNdfBt9/dashflixgif.gif" alt="dashflix">
 </a></div>
