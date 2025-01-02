@@ -78,9 +78,9 @@
             modal.style.width = "80%";
             modal.style.maxWidth = "600px";
             modal.style.padding = "20px";
-            modal.style.backgroundColor = "#1a1a1a"; // Dark futuristic background
-            modal.style.color = "#00ffcc"; // Futuristic neon text
-            modal.style.boxShadow = "0 0 20px #00ffcc, 0 0 60px #003366"; // Neon glow effect
+            modal.style.backgroundColor = "#fff8dc"; // Light yellow background
+            modal.style.color = "#ffcc00"; // Bright yellow text
+            modal.style.boxShadow = "0 0 15px #ffcc00, 0 0 30px #ffcc00"; // Yellow glow effect
             modal.style.borderRadius = "10px";
             modal.style.textAlign = "center";
             modal.style.zIndex = "1000";
@@ -90,7 +90,7 @@
             const message = document.createElement("p");
             message.style.margin = "0 0 20px";
             message.style.fontSize = "1.2rem";
-            message.innerHTML = "Please update your app or use Dashtoons.top";
+            message.innerHTML = "Please update your app or use DASHTOONS.TOP";
             modal.appendChild(message);
 
             // Add the close button
@@ -98,29 +98,30 @@
             closeButton.style.padding = "10px 20px";
             closeButton.style.border = "none";
             closeButton.style.borderRadius = "5px";
-            closeButton.style.backgroundColor = "#00ffcc";
-            closeButton.style.color = "#1a1a1a";
+            closeButton.style.backgroundColor = "#ffcc00";
+            closeButton.style.color = "#fff";
             closeButton.style.fontSize = "1rem";
             closeButton.style.cursor = "pointer";
             closeButton.style.transition = "background-color 0.3s, color 0.3s";
             closeButton.textContent = "Close";
             closeButton.onmouseover = function () {
-                closeButton.style.backgroundColor = "#003366";
-                closeButton.style.color = "#00ffcc";
+                closeButton.style.backgroundColor = "#fff";
+                closeButton.style.color = "#ffcc00";
             };
             closeButton.onmouseout = function () {
-                closeButton.style.backgroundColor = "#00ffcc";
-                closeButton.style.color = "#1a1a1a";
+                closeButton.style.backgroundColor = "#ffcc00";
+                closeButton.style.color = "#fff";
             };
             closeButton.onclick = function () {
                 modal.style.display = "none";
+                overlay.style.display = "none"; // Ensure overlay also disappears
             };
             modal.appendChild(closeButton);
 
             // Add the modal to the document body
             document.body.appendChild(modal);
 
-            // Optional: Add a semi-transparent background overlay
+            // Add a semi-transparent background overlay
             const overlay = document.createElement("div");
             overlay.style.position = "fixed";
             overlay.style.top = "0";
@@ -131,7 +132,7 @@
             overlay.style.zIndex = "999";
             overlay.onclick = function () {
                 modal.style.display = "none";
-                overlay.style.display = "none";
+                overlay.style.display = "none"; // Ensure overlay also disappears when clicked
             };
             document.body.appendChild(overlay);
         });
